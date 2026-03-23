@@ -43,39 +43,51 @@
     </div>
 
     <div class="container hero__inner">
-      <div class="hero__badge reveal">✦ Disponible para nuevos proyectos</div>
 
-      <h1 class="hero__name reveal">
-        Javier<br />
-        <em>Rodríguez</em><br />
-        González
-      </h1>
+      <!-- Texto -->
+      <div class="hero__content">
+        <div class="hero__badge reveal">✦ Disponible para nuevos proyectos</div>
 
-      <p class="hero__role reveal">Periodista &amp; Comunicador Audiovisual</p>
+        <h1 class="hero__name reveal">
+          Javier<br />
+          <em>Rodríguez</em><br />
+          González
+        </h1>
 
-      <p class="hero__bio reveal">
-        Estudiante de Doble Grado en Periodismo y Comunicación Audiovisual (USC).
-        Creo historias con impacto a través de texto, imagen y sonido.
-        Basado en Vigo · Erasmus Roma.
-      </p>
+        <p class="hero__role reveal">Periodista &amp; Comunicador Audiovisual</p>
 
-      <div class="hero__ctas reveal">
-        <a href="#proyectos" class="btn btn--primary">Ver proyectos</a>
-        <a href="mailto:javirodriguezg03@gmail.com" class="btn btn--outline">Contactar</a>
+        <p class="hero__bio reveal">
+          Estudiante de Doble Grado en Periodismo y Comunicación Audiovisual (USC).
+          Creo historias con impacto a través de texto, imagen y sonido.
+          Basado en Vigo · Erasmus Roma.
+        </p>
+
+        <div class="hero__ctas reveal">
+          <a href="#proyectos" class="btn btn--primary">Ver proyectos</a>
+          <a href="mailto:javirodriguezg03@gmail.com" class="btn btn--outline">Contactar</a>
+        </div>
+
+        <div class="hero__chips reveal">
+          <span class="chip chip--lavender">📍 Vigo, Galicia</span>
+          <span class="chip chip--mint">🎓 USC &amp; LUMSA Roma</span>
+          <span class="chip chip--yellow">🏆 Premio Álvaro Cunqueiro</span>
+          <span class="chip chip--peach">🌍 4 Idiomas</span>
+        </div>
       </div>
 
-      <div class="hero__chips reveal">
-        <span class="chip chip--lavender">📍 Vigo, Galicia</span>
-        <span class="chip chip--mint">🎓 USC &amp; LUMSA Roma</span>
-        <span class="chip chip--yellow">🏆 Premio Álvaro Cunqueiro</span>
-        <span class="chip chip--peach">🌍 4 Idiomas</span>
+      <!-- Retrato -->
+      <div class="hero__portrait reveal">
+        <img
+          src="assets/img/foto-carnet.jpg"
+          alt="Fotografía de Javier Rodríguez González"
+          class="hero__portrait-img"
+          loading="eager"
+          decoding="async"
+        />
       </div>
+
     </div>
 
-    <div class="hero__scroll" aria-hidden="true">
-      <span>Scroll</span>
-      <div class="hero__scroll-line"></div>
-    </div>
   </section>
 
   <!-- ═══════════════════════ SOBRE MÍ ═══════════════════════ -->
@@ -86,19 +98,11 @@
       <div class="about__grid">
         <!-- Stats -->
         <div class="about__stats">
-          <div class="stat-card stat-card--lavender reveal">
-            <span class="stat-card__number">3<span class="stat-card__sup">+</span></span>
-            <span class="stat-card__label">Años de experiencia</span>
-          </div>
-          <div class="stat-card stat-card--mint reveal" style="--delay:0.1s">
-            <span class="stat-card__number">11</span>
-            <span class="stat-card__label">Proyectos publicados</span>
-          </div>
-          <div class="stat-card stat-card--yellow reveal" style="--delay:0.2s">
+          <div class="stat-card stat-card--yellow reveal">
             <span class="stat-card__number">1</span>
             <span class="stat-card__label">Premio nacional</span>
           </div>
-          <div class="stat-card stat-card--peach reveal" style="--delay:0.3s">
+          <div class="stat-card stat-card--peach reveal" style="--delay:0.1s">
             <span class="stat-card__number">4</span>
             <span class="stat-card__label">Idiomas</span>
           </div>
@@ -171,7 +175,7 @@
               <span class="timeline__date">Jun – Sept 2025</span>
               <span class="chip chip--mint chip--sm">Periodismo Digital</span>
             </div>
-            <h3 class="timeline__title">Periodista y Comunicador Audiovisual</h3>
+            <h3 class="timeline__title">Periodista y Comunicador Audiovisual en Prácticas</h3>
             <div class="timeline__company">A Movida Cultural — Vigo</div>
             <p class="timeline__desc">
               Creación de contenido para RRSS y web de la revista de periodismo cultural de Vigo.
@@ -183,27 +187,6 @@
               <span class="tool-chip">Instagram</span>
               <span class="tool-chip">Fotografía</span>
               <span class="tool-chip">Redacción</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="timeline__item reveal">
-          <div class="timeline__dot timeline__dot--mint"></div>
-          <div class="timeline__card">
-            <div class="timeline__meta">
-              <span class="timeline__date">2022 – 2024</span>
-              <span class="chip chip--mint chip--sm">Colaboraciones</span>
-            </div>
-            <h3 class="timeline__title">Colaborador en Periodismo Cultural</h3>
-            <div class="timeline__company">A Movida Cultural — Vigo</div>
-            <p class="timeline__desc">
-              Colaboraciones periódicas en la revista digital de cultura y ocio de Vigo.
-              Redacción de artículos, cobertura de eventos y creación de contenido para redes sociales.
-            </p>
-            <div class="timeline__tools">
-              <span class="tool-chip">Redacción</span>
-              <span class="tool-chip">Fotografía</span>
-              <span class="tool-chip">RRSS</span>
             </div>
           </div>
         </div>
@@ -243,18 +226,19 @@
         <!-- Competencias -->
         <div class="skills__col">
           <h3 class="skills__subtitle reveal">Competencias</h3>
+          <p class="skills__legend reveal">Color por categoría: Editorial, Audiovisual, Digital y Soft Skills.</p>
           <div class="skills__tags reveal">
-            <span class="skill-tag skill-tag--lavender">Redacción informativa</span>
-            <span class="skill-tag skill-tag--lavender">Locución radiofónica</span>
-            <span class="skill-tag skill-tag--mint">Creación y diseño web</span>
-            <span class="skill-tag skill-tag--sky">Fotografía (cámara réflex)</span>
-            <span class="skill-tag skill-tag--sky">Grabación de vídeo</span>
-            <span class="skill-tag skill-tag--yellow">Edición audiovisual</span>
-            <span class="skill-tag skill-tag--peach">Presencia ante cámara</span>
-            <span class="skill-tag skill-tag--peach">Roles de cara al público</span>
-            <span class="skill-tag skill-tag--rose">Creatividad y adaptabilidad</span>
-            <span class="skill-tag skill-tag--rose">Competencias digitales</span>
-            <span class="skill-tag skill-tag--lavender">Curiosidad informativa</span>
+            <span class="skill-tag skill-tag--editorial"><span class="skill-tag__icon" aria-hidden="true">✎</span>Redacción informativa</span>
+            <span class="skill-tag skill-tag--editorial"><span class="skill-tag__icon" aria-hidden="true">◉</span>Locución radiofónica</span>
+            <span class="skill-tag skill-tag--digital"><span class="skill-tag__icon" aria-hidden="true">&lt;/&gt;</span>Creación y diseño web</span>
+            <span class="skill-tag skill-tag--audiovisual"><span class="skill-tag__icon" aria-hidden="true">◌</span>Fotografía (cámara réflex)</span>
+            <span class="skill-tag skill-tag--audiovisual"><span class="skill-tag__icon" aria-hidden="true">▸</span>Grabación de vídeo</span>
+            <span class="skill-tag skill-tag--audiovisual"><span class="skill-tag__icon" aria-hidden="true">✂</span>Edición audiovisual</span>
+            <span class="skill-tag skill-tag--audiovisual"><span class="skill-tag__icon" aria-hidden="true">◎</span>Presencia ante cámara</span>
+            <span class="skill-tag skill-tag--soft"><span class="skill-tag__icon" aria-hidden="true">↔</span>Roles de cara al público</span>
+            <span class="skill-tag skill-tag--soft"><span class="skill-tag__icon" aria-hidden="true">✦</span>Creatividad y adaptabilidad</span>
+            <span class="skill-tag skill-tag--digital"><span class="skill-tag__icon" aria-hidden="true">⌁</span>Competencias digitales</span>
+            <span class="skill-tag skill-tag--editorial"><span class="skill-tag__icon" aria-hidden="true">◍</span>Curiosidad informativa</span>
           </div>
         </div>
 
@@ -264,7 +248,7 @@
           <div class="tools__grid reveal">
 
             <div class="tool-group">
-              <span class="tool-group__label">Vídeo</span>
+              <span class="tool-group__label"><span class="tool-group__label-icon" aria-hidden="true">▣</span>Vídeo</span>
               <div class="tool-group__items">
                 <span class="tool-badge">Premiere Pro</span>
                 <span class="tool-badge">Avid Media Composer</span>
@@ -275,7 +259,7 @@
             </div>
 
             <div class="tool-group">
-              <span class="tool-group__label">Audio</span>
+              <span class="tool-group__label"><span class="tool-group__label-icon" aria-hidden="true">◉</span>Audio</span>
               <div class="tool-group__items">
                 <span class="tool-badge">ProTools</span>
                 <span class="tool-badge">Audacity</span>
@@ -284,7 +268,7 @@
             </div>
 
             <div class="tool-group">
-              <span class="tool-group__label">Fotografía</span>
+              <span class="tool-group__label"><span class="tool-group__label-icon" aria-hidden="true">◌</span>Fotografía</span>
               <div class="tool-group__items">
                 <span class="tool-badge">Photoshop</span>
                 <span class="tool-badge">Lightroom</span>
@@ -292,7 +276,7 @@
             </div>
 
             <div class="tool-group">
-              <span class="tool-group__label">Diseño &amp; Web</span>
+              <span class="tool-group__label"><span class="tool-group__label-icon" aria-hidden="true">⌘</span>Diseño &amp; Web</span>
               <div class="tool-group__items">
                 <span class="tool-badge">Canva</span>
                 <span class="tool-badge">InDesign</span>
@@ -304,7 +288,7 @@
             </div>
 
             <div class="tool-group">
-              <span class="tool-group__label">Datos</span>
+              <span class="tool-group__label"><span class="tool-group__label-icon" aria-hidden="true">▤</span>Datos</span>
               <div class="tool-group__items">
                 <span class="tool-badge">Flourish</span>
                 <span class="tool-badge">Datawrapper</span>
@@ -312,7 +296,7 @@
             </div>
 
             <div class="tool-group">
-              <span class="tool-group__label">Código &amp; IA</span>
+              <span class="tool-group__label"><span class="tool-group__label-icon" aria-hidden="true">{ }</span>Código &amp; IA</span>
               <div class="tool-group__items">
                 <span class="tool-badge">Visual Studio Code</span>
                 <span class="tool-badge">GitHub Copilot</span>
@@ -366,7 +350,12 @@
         <div class="languages__grid">
 
           <div class="lang-card">
-            <div class="lang-card__flag">🇪🇸</div>
+            <div class="lang-card__flag" role="img" aria-label="Bandera de España">
+              <svg viewBox="0 0 60 40" aria-hidden="true" focusable="false">
+                <rect width="60" height="40" fill="#c1121f" />
+                <rect y="10" width="60" height="20" fill="#ffcc00" />
+              </svg>
+            </div>
             <div class="lang-card__info">
               <span class="lang-card__name">Español</span>
               <span class="lang-card__level">Nativo</span>
@@ -375,7 +364,12 @@
           </div>
 
           <div class="lang-card">
-            <div class="lang-card__flag">🏴󠁧󠁢󠁳󠁣󠁴󠁿</div>
+            <div class="lang-card__flag" role="img" aria-label="Bandera de Galicia">
+              <svg viewBox="0 0 60 40" aria-hidden="true" focusable="false">
+                <rect width="60" height="40" fill="#ffffff" />
+                <path d="M0 40 L16 40 L60 0 L44 0 Z" fill="#38bdf8" />
+              </svg>
+            </div>
             <div class="lang-card__info">
               <span class="lang-card__name">Gallego</span>
               <span class="lang-card__level">Nativo · CELGA 4</span>
@@ -384,7 +378,17 @@
           </div>
 
           <div class="lang-card">
-            <div class="lang-card__flag">🇬🇧</div>
+            <div class="lang-card__flag" role="img" aria-label="Bandera del Reino Unido">
+              <svg viewBox="0 0 60 40" aria-hidden="true" focusable="false">
+                <rect width="60" height="40" fill="#012169" />
+                <path d="M0 0 L24 16 L0 32 V40 H8 L30 25 L52 40 H60 V32 L36 16 L60 0 V0 H52 L30 15 L8 0 Z" fill="#ffffff" />
+                <path d="M0 0 L20 13.2 L16.5 16 L0 5 ZM60 0 L40 13.2 L43.5 16 L60 5 ZM0 40 L20 26.8 L16.5 24 L0 35 ZM60 40 L40 26.8 L43.5 24 L60 35 Z" fill="#c8102e" />
+                <rect x="24" width="12" height="40" fill="#ffffff" />
+                <rect y="14" width="60" height="12" fill="#ffffff" />
+                <rect x="26" width="8" height="40" fill="#c8102e" />
+                <rect y="16" width="60" height="8" fill="#c8102e" />
+              </svg>
+            </div>
             <div class="lang-card__info">
               <span class="lang-card__name">Inglés</span>
               <span class="lang-card__level">Avanzado · B2 Cambridge</span>
@@ -393,7 +397,13 @@
           </div>
 
           <div class="lang-card">
-            <div class="lang-card__flag">🇮🇹</div>
+            <div class="lang-card__flag" role="img" aria-label="Bandera de Italia">
+              <svg viewBox="0 0 60 40" aria-hidden="true" focusable="false">
+                <rect width="20" height="40" x="0" fill="#009246" />
+                <rect width="20" height="40" x="20" fill="#ffffff" />
+                <rect width="20" height="40" x="40" fill="#ce2b37" />
+              </svg>
+            </div>
             <div class="lang-card__info">
               <span class="lang-card__name">Italiano</span>
               <span class="lang-card__level">Intermedio · B1 CILS</span>
@@ -515,6 +525,7 @@
             <div class="project-card__placeholder" style="background:linear-gradient(135deg,#C4B5FD 0%,#93C5FD 100%)">
               <svg width="52" height="52" viewBox="0 0 80 80" fill="none"><rect width="80" height="80" rx="40" fill="rgba(255,255,255,.2)"/><rect x="22" y="26" width="36" height="28" rx="4" stroke="white" stroke-width="2.5"/><path d="M34 35l14 5-14 5V35z" fill="white" fill-opacity=".7"/></svg>
             </div>
+            <img class="project-card__resource" src="assets/img/projects/secuencia-ficcion.svg" alt="Imagen de recurso del proyecto Secuencia de Ficción" loading="lazy" />
           </div>
           <div class="project-card__content">
             <div class="project-card__header">
@@ -544,6 +555,7 @@
             <div class="project-card__placeholder" style="background:linear-gradient(135deg,#A78BFA 0%,#C4B5FD 100%)">
               <svg width="52" height="52" viewBox="0 0 80 80" fill="none"><rect width="80" height="80" rx="40" fill="rgba(255,255,255,.2)"/><path d="M40 20L56 30V50L40 60L24 50V30L40 20Z" stroke="white" stroke-width="2.5"/><circle cx="40" cy="40" r="8" fill="rgba(255,255,255,.35)"/></svg>
             </div>
+            <img class="project-card__resource" src="assets/img/projects/realidad-aumentada.svg" alt="Imagen de recurso del proyecto Realidad Aumentada 3D" loading="lazy" />
           </div>
           <div class="project-card__content">
             <div class="project-card__header">
@@ -569,6 +581,7 @@
             <div class="project-card__placeholder" style="background:linear-gradient(135deg,#6EE7B7 0%,#7DD3FC 100%)">
               <svg width="52" height="52" viewBox="0 0 80 80" fill="none"><rect width="80" height="80" rx="40" fill="rgba(255,255,255,.2)"/><circle cx="40" cy="32" r="10" stroke="white" stroke-width="2.5"/><path d="M25 56c0-8.3 6.7-15 15-15s15 6.7 15 15" stroke="white" stroke-width="2.5" stroke-linecap="round"/></svg>
             </div>
+            <img class="project-card__resource" src="assets/img/projects/entrevista-oliver-laxe.svg" alt="Imagen de recurso del proyecto Entrevista a Óliver Laxe" loading="lazy" />
           </div>
           <div class="project-card__content">
             <div class="project-card__header">
@@ -594,6 +607,7 @@
             <div class="project-card__placeholder" style="background:linear-gradient(135deg,#FCD34D 0%,#6EE7B7 100%)">
               <svg width="52" height="52" viewBox="0 0 80 80" fill="none"><rect width="80" height="80" rx="40" fill="rgba(255,255,255,.2)"/><circle cx="40" cy="32" r="8" stroke="white" stroke-width="2.5"/><path d="M40 40v9M34 56h12" stroke="white" stroke-width="2.5" stroke-linecap="round"/><path d="M29 43c1.5 5 5 8 11 8s9.5-3 11-8" stroke="white" stroke-width="2.5" stroke-linecap="round" fill="none"/></svg>
             </div>
+            <img class="project-card__resource" src="assets/img/projects/noticia-radiofonica.svg" alt="Imagen de recurso del proyecto Noticia Radiofónica CRTVG" loading="lazy" />
           </div>
           <div class="project-card__content">
             <div class="project-card__header">
@@ -619,6 +633,7 @@
             <div class="project-card__placeholder" style="background:linear-gradient(135deg,#FCA5A5 0%,#FDE68A 100%)">
               <svg width="52" height="52" viewBox="0 0 80 80" fill="none"><rect width="80" height="80" rx="40" fill="rgba(255,255,255,.2)"/><rect x="22" y="22" width="36" height="44" rx="4" stroke="white" stroke-width="2.5"/><path d="M29 32h22M29 40h22M29 48h14" stroke="white" stroke-width="2.5" stroke-linecap="round"/></svg>
             </div>
+            <img class="project-card__resource" src="assets/img/projects/reportaje-prensa-escrita.svg" alt="Imagen de recurso del proyecto Reportaje de Prensa Escrita" loading="lazy" />
           </div>
           <div class="project-card__content">
             <div class="project-card__header">
@@ -643,6 +658,7 @@
             <div class="project-card__placeholder" style="background:linear-gradient(135deg,#FDA4AF 0%,#C4B5FD 100%)">
               <svg width="52" height="52" viewBox="0 0 80 80" fill="none"><rect width="80" height="80" rx="40" fill="rgba(255,255,255,.2)"/><rect x="18" y="26" width="44" height="26" rx="4" stroke="white" stroke-width="2.5"/><path d="M30 56h20M40 52v4" stroke="white" stroke-width="2.5" stroke-linecap="round"/></svg>
             </div>
+            <img class="project-card__resource" src="assets/img/projects/propuesta-reality-rtve.svg" alt="Imagen de recurso del proyecto Propuesta Reality Show RTVE" loading="lazy" />
           </div>
           <div class="project-card__content">
             <div class="project-card__header">
@@ -668,6 +684,7 @@
             <div class="project-card__placeholder" style="background:linear-gradient(135deg,#FDE68A 0%,#A7F3D0 100%)">
               <svg width="52" height="52" viewBox="0 0 80 80" fill="none"><rect width="80" height="80" rx="40" fill="rgba(255,255,255,.2)"/><path d="M20 40 Q28 26 36 40 Q44 54 52 40 Q58 30 62 38" stroke="white" stroke-width="2.5" stroke-linecap="round" fill="none"/></svg>
             </div>
+            <img class="project-card__resource" src="assets/img/projects/ficcion-sonora.svg" alt="Imagen de recurso del proyecto Ficción Sonora en Directo" loading="lazy" />
           </div>
           <div class="project-card__content">
             <div class="project-card__header">
@@ -693,6 +710,7 @@
             <div class="project-card__placeholder" style="background:linear-gradient(135deg,#BAE6FD 0%,#A7F3D0 100%)">
               <svg width="52" height="52" viewBox="0 0 80 80" fill="none"><rect width="80" height="80" rx="40" fill="rgba(255,255,255,.2)"/><path d="M24 55V44M34 55V35M44 55V45M54 55V28" stroke="white" stroke-width="2.5" stroke-linecap="round"/></svg>
             </div>
+            <img class="project-card__resource" src="assets/img/projects/diagnostico-ong.svg" alt="Imagen de recurso del proyecto Diagnóstico Comunicativo ONG" loading="lazy" />
           </div>
           <div class="project-card__content">
             <div class="project-card__header">

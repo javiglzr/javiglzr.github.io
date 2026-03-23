@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Noticia radiofonica</title>
+  <desc id="desc">Radio microphone and waveforms for news broadcast.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#78350f"/>
+      <stop offset="1" stop-color="#b45309"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect x="120" y="90" width="1040" height="540" rx="30" fill="#451a03" opacity="0.75" stroke="#f59e0b"/>
+  <rect x="565" y="200" width="150" height="190" rx="75" fill="#fef3c7"/>
+  <rect x="615" y="375" width="50" height="145" rx="25" fill="#fef3c7"/>
+  <rect x="550" y="510" width="180" height="22" rx="11" fill="#fde68a"/>
+  <path d="M300 260c50 0 50 80 100 80s50-80 100-80 50 80 100 80" stroke="#fde68a" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M680 260c50 0 50 80 100 80s50-80 100-80 50 80 100 80" stroke="#fcd34d" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M255 460c40 0 40 60 80 60s40-60 80-60 40 60 80 60" stroke="#fbbf24" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <text x="80" y="670" fill="#fffbeb" font-family="Arial, sans-serif" font-size="48" font-weight="700">NOTICIA RADIOFONICA</text>
+</svg>

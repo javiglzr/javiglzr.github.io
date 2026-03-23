@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Propuesta reality RTVE</title>
+  <desc id="desc">TV control room inspired image for reality format proposal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#831843"/>
+      <stop offset="1" stop-color="#a21caf"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect x="120" y="100" width="1040" height="520" rx="30" fill="#3b0764" opacity="0.72" stroke="#f0abfc"/>
+  <rect x="210" y="190" width="860" height="270" rx="16" fill="#581c87" stroke="#d8b4fe"/>
+  <rect x="255" y="230" width="245" height="185" rx="12" fill="#a21caf"/>
+  <rect x="530" y="230" width="245" height="185" rx="12" fill="#c026d3"/>
+  <rect x="805" y="230" width="220" height="185" rx="12" fill="#db2777"/>
+  <path d="M280 512h760" stroke="#f5d0fe" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="430" cy="560" r="20" fill="#f5d0fe"/>
+  <circle cx="640" cy="560" r="20" fill="#f5d0fe"/>
+  <circle cx="850" cy="560" r="20" fill="#f5d0fe"/>
+  <text x="80" y="670" fill="#fae8ff" font-family="Arial, sans-serif" font-size="48" font-weight="700">PROPUESTA REALITY RTVE</text>
+</svg>
