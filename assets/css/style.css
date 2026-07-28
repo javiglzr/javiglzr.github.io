@@ -929,6 +929,7 @@ em {
   border-radius: var(--r-xl);
   overflow: hidden;
   display: flex;
+  cursor: pointer;
   flex-direction: column;
   box-shadow: var(--shadow-sm);
   transition: transform .3s var(--ease), box-shadow .3s;

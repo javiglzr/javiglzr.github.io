@@ -168,6 +168,25 @@ document.querySelectorAll('.project-card[data-preview-url]').forEach(card => {
   screenshotObserver.observe(card);
 });
 
+/* ── CLICK EN TARJETA DE PROYECTO ───────────────────────────── */
+document.querySelectorAll('.project-card[data-project-url]').forEach(card => {
+  card.addEventListener('click', (event) => {
+    if (event.target.closest('a, button')) return;
+
+    window.open(card.dataset.projectUrl, '_blank', 'noopener,noreferrer');
+  });
+
+  card.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      window.open(card.dataset.projectUrl, '_blank', 'noopener,noreferrer');
+    }
+  });
+
+  card.setAttribute('role', 'link');
+  card.setAttribute('tabindex', '0');
+});
+
 /* ── SMOOTH SCROLL para anchor links ─────────────────────────── */
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
