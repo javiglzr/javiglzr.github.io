@@ -187,6 +187,31 @@ document.querySelectorAll('.project-card[data-project-url]').forEach(card => {
   card.setAttribute('tabindex', '0');
 });
 
+/* ── SCROLL A SECCIONES DESDE LOS STATS ───────────────────── */
+document.querySelectorAll('.stat-card[data-scroll-target]').forEach(card => {
+  const targetId = card.dataset.scrollTarget;
+  const target = document.getElementById(targetId);
+
+  if (!target) return;
+
+  const scrollToTarget = (event) => {
+    if (event) event.preventDefault();
+
+    const navHeight = nav.offsetHeight + 16;
+    const targetTop = target.getBoundingClientRect().top + window.scrollY - navHeight;
+
+    window.scrollTo({ top: targetTop, behavior: 'smooth' });
+  };
+
+  card.addEventListener('click', scrollToTarget);
+  card.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      scrollToTarget(event);
+    }
+  });
+});
+
 /* ── SMOOTH SCROLL para anchor links ─────────────────────────── */
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
